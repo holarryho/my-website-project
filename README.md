@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## lawrenceho.co
+
+Site code for lawrenceho.co
 
 You can use the [editor on GitHub](https://github.com/holarryho/personal-website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
