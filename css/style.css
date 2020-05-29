@@ -6,7 +6,7 @@
 /*Color palette generator: http://colormind.io*/
 /*Global variables for changing colors across the site*/
 :root {
-	--accent: #88af98;
+	--accent: #e50053;
 	--main: #333;
 	--light: #666;
 	--lighter: #f2eeeb;
@@ -31,6 +31,10 @@
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
+}
+
+.header{
+	padding-top: 10px;
 }
 
 /*Format header*/
@@ -76,8 +80,8 @@ p.sitelogo {
 	font-size: 1.5em;
 	display: inline-block;
 	float: left;
-	padding-top: 0.5em;
 	margin: 0 auto;
+	letter-spacing: -.02em;
 }
 
 a.sitelogo, a.sitelogo:hover, a.sitelogo:visited, a.sitelogo:active {
@@ -92,6 +96,29 @@ hr.line-separator {
 	border-bottom: 1px solid #ddd;
 	border-left: var(--bg);
 	border-right: var(--bg);
+}
+
+/*Header ticker*/
+span.header-ticker {
+    animation-name: tick;
+    animation-duration: 1s;
+    animation-timing-function: steps(1,end);
+    animation-iteration-count: infinite;
+    color: var(--accent);
+    font-size: 1.2em;
+    line-height: 55px;
+}
+
+@keyframes tick {
+ 0% {
+  opacity:1
+ }
+ 50% {
+  opacity:0
+ }
+ 100% {
+  opacity:0
+ }
 }
 
 /*Format footer*/
