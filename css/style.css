@@ -9,9 +9,9 @@
 	--accent: #88af98;
 	--main: #333;
 	--light: #666;
-	--lighter: #f3f3f3;
+	--lighter: #f2eeeb;
 	--border: #e6e6e6;
-	--bg: #fff;
+	--bg: #fcfcfc;
 
 }
 
@@ -83,6 +83,32 @@ p.sitelogo {
 a.sitelogo, a.sitelogo:hover, a.sitelogo:visited, a.sitelogo:active {
 	text-decoration: none;
 	color: var(--main);
+}
+
+hr.line-separator {
+	margin: 12px 0px;
+	height: 1px;
+	border-top: 1px solid #d0d0d0;
+	border-bottom: 1px solid #ddd;
+	border-left: var(--bg);
+	border-right: var(--bg);
+}
+
+/*Format footer*/
+footer {
+	font-style: italic;
+	font-size: .9em;
+}
+
+footer > nav {
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 24px;
+}
+
+.footer p {
+	text-align: center;
+	font-size: 0.75em;
 }
 
 /*Format main body text*/
@@ -175,7 +201,7 @@ img {
 }
 
 img.home-banner {
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-bottom: 20px;
 	max-width: 100%;
 	height: auto;
@@ -211,15 +237,4 @@ a:hover, a:focus, a:active {
 	background: var(--lighter);
 	color: var(--main);
 	text-decoration: none; 
-}
-
-/*Format footer*/
-.footer {
-	margin-top: 6em;
-	text-align: center;
-	border-top: 1px solid var(--border);
-}
-
-.footer p {
-	font-size: 0.75em;
 }
