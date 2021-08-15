@@ -1,3 +1,4 @@
 ## lawrenceho.co
 
-Site code for lawrenceho.co
+Porkbun domain: lawrenceho.co
+
