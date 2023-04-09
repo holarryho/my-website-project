@@ -23,11 +23,17 @@ Before getting started, make sure you have the following installed on your compu
 2. Take a look at the overview of the codebase and understand what each section does.
 3. Understand what the necessary tags on each line do `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>`.
 4. Make changes to the text within each tag. You check your changes by opening "template.html" in a web browser.
-5. Add and commit your changes using Git, then push your changes to your forked repository on GitHub using `git push`.
-6. Visit your GitHub repository and click the "Settings" button.
-7. Scroll down to the "GitHub Pages" section and select the branch where your website files are located.
-8. Click "Save".
-9. Your website should now be live at `https://<your GitHub username>.github.io/<name of your repository>`.
+5. First replace the strings in the "About Me" section and insert a blurb about yourself.
+6. Then insert your contact info where the text `Contact Info 1` and `Contact Info 2`.
+7. Insert your updated resume to the "Work Experience" section.
+8. (Optional) Update the blog section with any articles you wrote or are interested in writing on. Start with setting up introduction to your blog section.
+
+## Publishing your changes
+1. Add and commit your changes using Git, then push your changes to your forked repository on GitHub using `git push`.
+2. Visit your GitHub repository and click the "Settings" button.
+3. Scroll down to the "GitHub Pages" section and select the branch where your website files are located.
+4. Click "Save".
+5. Your website should now be live at `https://<your GitHub username>.github.io/<name of your repository>`.
 
 ## Customizing Your Website
 
